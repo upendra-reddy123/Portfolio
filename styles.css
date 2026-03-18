@@ -216,7 +216,6 @@ body {
     z-index: 10;
     max-width: 1400px;
     margin: 0 auto;
-    background-image: url('hero_background.png');
 }
 
 /* Hero-specific full-section background */
@@ -227,6 +226,7 @@ body {
     position: relative;
     padding-left: calc(5% + (100vw - 1400px) / 2);
     padding-right: calc(5% + (100vw - 1400px) / 2);
+    background-image: url('hero_background.png');
 }
 
 /* Dark overlay so text stays readable on the image */
